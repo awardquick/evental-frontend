@@ -1,0 +1,400 @@
+/**
+ * @copyright : Ozvid Technologies Pvt. Ltd. < www.ozvid.com >
+  @author     : Shiv Charan Panjeta 
+  
+  All Rights Reserved.
+  Proprietary and confidential :  All information contained herein is, and remains
+  the property of Ozvid Technologies Pvt. Ltd. and its partners.
+  Unauthorized copying of this file, via any medium is strictly prohibited.
+ * 
+ */
+a.link {
+    color: #5271FF;
+    text-align: right;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.card {
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background: #FFF;
+}
+
+.product_images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    margin-bottom: 20px;
+}
+
+.big_box {
+    grid-area: 1 / 1 / 3 / 3;
+}
+
+.small_box_one {
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+.small_box_two {
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+.product_images img {
+    width: 100%;
+}
+
+.product_detail h4 {
+    font-family: Urbanist;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.product_detail p,
+.map-card p {
+    color: #6C7288;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.product_detail h5,
+.map-card h5,
+.chat-card h5 {
+    color: #0F1223;
+    font-family: Urbanist;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.product_detail .features-box span.icon_box {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background: #EEF3FE;
+}
+
+.product_detail .features-box li {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-bottom: 10px;
+}
+
+.product_detail .features-box li p {
+    margin: 0;
+}
+
+.product_detail .features-box li p span {
+    color: #0F1223;
+}
+
+.map-card h5 {
+    margin-bottom: 20px;
+}
+
+.map-card .map-box {
+    position: relative;
+}
+
+.map-card .map-box::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('/images/location-fill.svg');
+    width: 36px;
+    height: 36px;
+}
+
+.address-list li {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #DADBE7;
+}
+
+.address-list li:last-child {
+    border: 0;
+}
+
+.address-list li p {
+    margin-bottom: 0;
+}
+
+.address-list li p span {
+    color: #6C7288;
+    text-align: right;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.chat-card {
+    padding: 20px;
+}
+
+.chat-card .form-control {
+    border-radius: 10px;
+    background: #F6F7F9;
+}
+
+.title-sec h4 {
+    color: #0F1223;
+    font-family: Urbanist;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.payment_box {
+    padding: 30px;
+}
+
+.payment_box .date-box {
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #DADBE7;
+    background: #FFF;
+    margin-bottom: 20px;
+}
+
+.payment_box .date-box .date-list li,
+.payment_box .price-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 15px;
+}
+
+.payment_box .date-box .date-list li p {
+    color: #6D707A;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.payment_box .date-box .date-list li {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #DADBE7;
+}
+
+.payment_box .date-box .date-list,
+.payment_box .date-box .date-list li:last-child,
+.payment_box .date-box .date-list li:last-child p {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.payment_box .date-list li p.date {
+    color: #0F1223;
+    text-align: right;
+    font-family: Urbanist;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px;
+}
+
+.payment_box .price-list li p.amount {
+    color: #0F1223;
+    text-align: right;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.payment_box .price-list {
+    border-bottom: 1px solid #DADBE7;
+}
+
+.payment_box .price-list li {
+    border-bottom: 13px;
+    margin-bottom: 0;
+}
+
+.payment_box .total h4 {
+    color: #0F1223;
+    font-family: Urbanist;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.payment_box h3.total-amt {
+    color: #5271FF;
+    text-align: right;
+    font-family: Urbanist;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+/* Mobile payemnt Box */
+
+.mobile-payemnt {
+    position: fixed;
+    background-color: #fff;
+    z-index: 9;
+    padding: 0;
+    border-radius: 20px 20px 0px 0px;
+    bottom: 0;
+    transition: all .3s ease;
+}
+
+.mobile-payemnt h5 {
+    color: #FFF;
+    font-family: Urbanist;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.mobile-payemnt .detail-btn {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 75px;
+    border-radius: 20px 20px 0px 0px;
+    background: #5271FF;
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+    justify-content: space-between;
+}
+
+.mobile-payemnt .arrow-icon {
+    border-radius: 10px;
+    background: #7C93FD;
+    height: 44px;
+    width: 44px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.mobile-payemnt .payment_box {
+    border-radius: 20px 20px 0px 0px;
+    margin: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.mobile-payemnt .payment_box .calendar .react-datepicker-popper {
+    transform: none !important;
+}
+
+.mobile-payemnt .title-sec .arrow-icon {
+    background: #F6F7F9;
+}
+
+.mobile-payemnt .title-sec .arrow-icon svg path {
+    stroke: #5271FF;
+}
+
+.mobile-payemnt .payment_box .date-box {
+    padding: 15px;
+}
+
+.mobile-payemnt .payment_box .date-box .date-list li {
+    padding-bottom: 0px;
+}
+
+.mobile-payemnt .payment_box h3.total-amt {
+    font-size: 24px;
+}
+
+.mobile-payemnt .payment_box .price-list li p {
+    font-size: 15px;
+}
+
+.mobile-payemnt .payment_box .price-list li p.amount {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.date-card .react-datepicker__day--disabled {
+    background: #ededed;
+    color: #9d9d9d !important;
+    border-radius: 8px;
+}
+
+.react-datepicker__day--disabled {
+    background: #ededed;
+    color: #9d9d9d !important;
+    border-radius: 8px;
+}
+
+.date-card input.custom-time-select {
+    z-index: 0;
+
+}
+
+.clock .react-datepicker {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+}
+
+.payment_box .price-list li .dropdown-toggle {
+    padding: 0;
+    background-color: #fff;
+    border: 0;
+    color: #5271FF;
+}
+
+.payment_box .price-list li .dropdown-toggle::after
+{
+    display: none;
+}
+
+.payment_box .price-list li .info-drop .dropdown-menu.show
+{
+    padding: 15px;
+    background-color: #e0e0e0;
+    border: 0;
+    box-shadow: 0px 0px 0px 0px rgba(40, 43, 62, 0.03), 1px 12px 27px 0px rgba(40, 43, 62, 0.03), 2px 49px 49px 0px rgba(40, 43, 62, 0.03), 6px 111px 67px 0px rgba(40, 43, 62, 0.02), 10px 198px 79px 0px rgba(40, 43, 62, 0.00), 15px 309px 87px 0px rgba(40, 43, 62, 0.00);
+    width: 250px;
+}
+.payment_box .price-list li .info-drop p
+{
+   font-size: 14px;
+   line-height: 24px;
+   color: #000;
+   font-weight: 400;
+}

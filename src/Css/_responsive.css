@@ -1,0 +1,448 @@
+@media (min-width: 1199px) and (max-width: 1420px) {
+  .custom_radio {
+    padding: 12px 5px 13px 5px;
+  }
+
+  .custom_radio label {
+    font-size: 12px;
+  }
+  .custom_radio input[type="radio"] + label {
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1399px) {
+  .banner-fltr-inner {
+    margin-top: -164px;
+  }
+
+  .calendar input.custom-calendar {
+    width: 120px;
+    font-size: 20px;
+  }
+
+  .filter-lft-date h4 {
+    font-size: 20px;
+  }
+
+  .filter-date-card::before {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .heading_h2 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .btn,
+  .btn-theme-fill,
+  .btn-theme-outline {
+    padding: 12px 25px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .footer-rt .head-links ul li {
+    margin-right: 10px;
+  }
+
+  .head-links ul li {
+    margin-right: 25px;
+  }
+
+  .filter-date-card {
+    row-gap: 20px;
+  }
+
+  .filter-date-card::before {
+    opacity: 0;
+  }
+
+  .head-links ul li a {
+    font-size: 12px;
+  }
+
+  .footer-rt .head-links ul li::after {
+    right: -7px;
+  }
+
+  .payment_box {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 991px) {
+  .mobile-header {
+    width: 100%;
+    height: 65px;
+    padding: 8px 20px;
+    background-color: #fff;
+    margin-bottom: 0;
+  }
+
+  .mobile-header img {
+    width: 50px;
+  }
+
+  .custom-radio {
+    flex-wrap: wrap;
+  }
+
+  .banner-inr {
+    padding: 30px;
+    min-height: 515px;
+    border-radius: 0;
+  }
+
+  .mobile-header .offcanvas-body h4 {
+    color: #0f1223;
+    font-family: Urbanist;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+  }
+
+  .mobile-head-links ul li {
+    display: block;
+    padding: 15px 16px;
+    border-bottom: 1px solid #e9ebf4;
+  }
+
+  .mobile-head-links ul li a {
+    color: #0f1223;
+    font-family: Urbanist;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+  }
+
+  .mobile-head-links ul li:last-child {
+    border-bottom: 0;
+  }
+
+  .offcanvas-header {
+    justify-content: end !important;
+  }
+
+  .offcanvas-header .btn-close {
+    --bs-btn-close-color: #5271ff !important;
+    opacity: 1 !important;
+  }
+
+  .offcanvas-footer {
+    width: 100%;
+    height: 50px;
+    background: #5271ff;
+  }
+
+  .offcanvas-footer a {
+    color: #fff;
+    font-family: Urbanist;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 20px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+  }
+
+  .offcanvas-footer a.logout-btn {
+    color: #0f1223;
+  }
+
+  .banner-filter .custom-radio {
+    gap: 10px;
+  }
+
+  .title-sec h2 {
+    font-size: 28px;
+    line-height: 30px;
+    margin: 0;
+  }
+
+  .heading_h2 {
+    font-size: 28px;
+    line-height: 30px;
+  }
+
+  .email_conorm_main,
+  .create_password_main {
+    padding: 50px 0 50px 0;
+  }
+
+  .product_images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-bottom: 20px;
+    min-height: 540px;
+    height: auto;
+  }
+
+  .product_images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .big_box {
+    grid-area: 1 / 1 / 2 / 3;
+  }
+
+  .small_box_one {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+
+  .small_box_two {
+    grid-area: 2 / 2 / 3 / 2;
+  }
+
+  .main_outer .footer-card {
+    padding-bottom: 80px;
+  }
+
+  .main_outer_box {
+    overflow: hidden;
+    height: calc(100vh - 100px);
+  }
+
+  .login_text {
+    margin-top: 30px;
+  }
+
+  .account_main.select_type .card {
+    background-color: transparent;
+  }
+
+  .account_main.select_type .first_account {
+    background-color: #ffff;
+    margin-bottom: 20px;
+  }
+
+  .account_main,
+  .created_account_main {
+    padding: 40px 0 60px 0;
+  }
+
+  .how_work_heading h2 {
+    font-size: 40px;
+    line-height: 40px;
+    padding-bottom: 20px;
+  }
+
+  .count_dash:before {
+    top: 50%;
+    left: 0;
+    transform: rotate(90deg);
+  }
+
+  .heading_h6 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .card_box_txt p {
+    font-size: 15px;
+  }
+
+  .count_dash {
+    margin-bottom: 20px;
+  }
+
+  .work_why_text {
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .work_why_text p {
+    font-size: 16px;
+  }
+
+  .product-box .product-img {
+    width: 100%;
+  }
+
+  .tabs_inner {
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+
+  .mobile-payemnt .payment_box .calendar .react-datepicker-popper {
+    padding: 30px 40px 40px;
+    overflow-y: auto;
+    height: 345px;
+  }
+
+  .mobile-payemnt
+    .payment_box
+    .calendar
+    .react-datepicker-popper::-webkit-scrollbar {
+    display: none;
+  }
+
+  .mobile-payemnt .payment_box .calendar .react-datepicker-popper {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .calendar .react-datepicker__month-container {
+    padding: 10px;
+  }
+
+  .Contact_top_txt .heading_h2,
+  .heading_h2 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .Contact_main {
+    padding: 20px 0;
+  }
+
+  .Contact_bottom_txt {
+    padding-top: 25px;
+    padding-bottom: 30px;
+  }
+
+  .Contact_top_txt p {
+    padding: 10px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .banner-dis h1 {
+    font-size: 45px;
+    line-height: 44px;
+  }
+
+  .banner-dis h4 {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+
+  .banner-dis p {
+    font-size: 16px;
+    line-height: 24px;
+    z-index: 1;
+    position: relative;
+    padding-right: 100px;
+  }
+
+  .banner-rt-img {
+    text-align: end;
+    margin-top: -155px;
+    margin-right: -31px;
+  }
+
+  .banner-rt-img img {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .filter-loc-card h4,
+  .filter-lft-date h4,
+  .bhooth-dis h3 {
+    font-size: 18px;
+    line-height: 19px;
+  }
+
+  .loc-link,
+  .bhooth-dis span {
+    font-size: 14px;
+  }
+
+  .bhooth-dis p {
+    font-size: 13px;
+  }
+
+  .event-card h3 {
+    font-size: 24px;
+  }
+
+  .event-card {
+    padding: 20px;
+  }
+
+  .banner-filter-bottom img {
+    max-width: 17px;
+  }
+
+  .radio-item,
+  .custom-radio .label-icon {
+    width: 100%;
+  }
+
+  .banner-dis {
+    padding-top: 0;
+  }
+
+  .event-img img {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .banner-dis h1::after {
+    right: 106px;
+    width: 339px;
+    height: 44px;
+    bottom: 0;
+  }
+
+  .event-img img {
+    margin-top: 15px;
+  }
+
+  .banner-rt-img img {
+    width: 100%;
+    max-width: 173px;
+  }
+
+  .chat_screen .chat-view .chat-head h4 {
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+
+  .react-datepicker-popper {
+    transform: translate(10px, 10px) !important;
+    bottom: 0 !important;
+    z-index: 999 !important;
+  }
+
+  .calendar .react-datepicker-popper {
+    transform: translate(-70px, 10px) !important;
+  }
+
+  .calendar .react-datepicker {
+    padding: 30px 20px 30px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner-fltr-inner {
+    margin-top: -125px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .filter-date-card::before {
+    display: none;
+  }
+
+  .calendar input.custom-calendar,
+  input.custom-time-select {
+    width: 110px;
+  }
+}

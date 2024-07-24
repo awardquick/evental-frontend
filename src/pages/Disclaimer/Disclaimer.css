@@ -1,0 +1,22 @@
+
+.disclaimer_heading span {
+    color: #0F1223;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.disclaimer_box p {
+    color: #6D707A;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.disclaimer_box a {
+    color: #5271FF;
+    text-decoration: underline !important;
+}
+

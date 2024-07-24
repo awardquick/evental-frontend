@@ -1,0 +1,26 @@
+<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="clock 1">
+<g id="Group">
+<g id="Group_2">
+<g id="Group_3">
+<path id="Vector" d="M13 5.42578V5.95919" stroke="#0F1223" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path id="Vector_2" d="M13 20.041V20.5744" stroke="#0F1223" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+</g>
+<g id="Group_4">
+<path id="Vector_3" d="M20.5744 13H20.041" stroke="#0F1223" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path id="Vector_4" d="M5.95919 13H5.42578" stroke="#0F1223" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+</g>
+<g id="Group_5">
+<path id="Vector_5" d="M8.0459 8.66699L14.063 14.9098" stroke="#0F1223" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path id="Vector_6" d="M15.9967 10.8213L11.9082 14.9097" stroke="#0F1223" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+</g>
+</g>
+<g id="Vector_7">
+<mask id="path-7-inside-1_0_344" fill="white">
+<path d="M23.2373 19.2339C24.3457 17.4176 24.9844 15.2834 24.9844 13C24.9844 6.38122 19.6188 1.01562 13 1.01562C6.38122 1.01562 1.01562 6.38122 1.01562 13C1.01562 19.6188 6.38122 24.9844 13 24.9844C15.4973 24.9844 17.816 24.2204 19.7356 22.9137"/>
+</mask>
+<path d="M21.5301 18.1921C20.9547 19.1349 21.2527 20.3657 22.1955 20.9411C23.1384 21.5165 24.3692 21.2185 24.9446 20.2757L21.5301 18.1921ZM20.8611 24.5669C21.7742 23.9454 22.0105 22.7013 21.3889 21.7882C20.7673 20.8751 19.5232 20.6388 18.6102 21.2604L20.8611 24.5669ZM24.9446 20.2757C26.2389 18.1546 26.9844 15.6613 26.9844 13H22.9844C22.9844 14.9054 22.4525 16.6805 21.5301 18.1921L24.9446 20.2757ZM26.9844 13C26.9844 5.27665 20.7233 -0.984375 13 -0.984375V3.01562C18.5142 3.01562 22.9844 7.48579 22.9844 13H26.9844ZM13 -0.984375C5.27665 -0.984375 -0.984375 5.27665 -0.984375 13H3.01562C3.01562 7.48579 7.48579 3.01562 13 3.01562V-0.984375ZM-0.984375 13C-0.984375 20.7233 5.27665 26.9844 13 26.9844V22.9844C7.48579 22.9844 3.01562 18.5142 3.01562 13H-0.984375ZM13 26.9844C15.9114 26.9844 18.6203 26.0924 20.8611 24.5669L18.6102 21.2604C17.0118 22.3484 15.0832 22.9844 13 22.9844V26.9844Z" fill="#0F1223" mask="url(#path-7-inside-1_0_344)"/>
+</g>
+</g>
+</g>
+</svg>

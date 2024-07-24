@@ -1,0 +1,25 @@
+<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="location 1" clipPath="url(#clip0_110_1670)">
+<g id="g833">
+<g id="Clip path group">
+<mask id="mask0_110_1670" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="-4" y="0" width="43" height="43">
+<g id="clipPath839">
+<path id="path837" d="M-4 3.8147e-06H39V43H-4V3.8147e-06Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_110_1670)">
+<g id="g835">
+<g id="g845">
+<path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M14.9186 33.1374L7.17397 23.0415C5.55776 20.9346 4.6001 18.3168 4.6001 15.4804C4.6001 8.51428 10.3756 2.86706 17.5001 2.86706C24.6246 2.86706 30.4001 8.51428 30.4001 15.4804C30.4001 18.3168 29.4425 20.9346 27.8262 23.0415L20.0816 33.1374C19.4933 33.9042 18.556 34.4004 17.5001 34.4004C16.4442 34.4004 15.5069 33.9042 14.9186 33.1374ZM17.5 21C20.5375 21 23 18.5375 23 15.5C23 12.4625 20.5375 10 17.5 10C14.4625 10 12 12.4625 12 15.5C12 18.5375 14.4625 21 17.5 21Z" fill="#5271FF"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_110_1670">
+<rect width="36" height="36" fill="white"/>
+</clipPath>
+</defs>
+</svg>

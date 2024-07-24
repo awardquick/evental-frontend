@@ -1,0 +1,105 @@
+.account_heading {
+    padding-bottom: 50px;
+}
+
+.created_account_heading {
+    padding-bottom: 20px;
+}
+
+.account_main,
+.created_account_main {
+    padding: 40px 0 100px 0;
+}
+
+.email_conorm_main,
+.create_password_main {
+    padding: 80px 0 100px 0;
+}
+
+.account_main .card,
+.created_account_main .card,
+.email_conorm_main .card,
+.create_password_main .card {
+    border-radius: 20px;
+}
+
+.account_main .card-body {
+    padding: 20px;
+}
+
+.first_account {
+    border-radius: 10px;
+    background: #F6F7F9;
+    padding: 30px;
+}
+
+.account_heading h4 {
+    color: #5271FF !important;
+}
+
+.first_account_txt h5,
+.email_confirm__heading h4,
+.create_password_txt h4 {
+    color: #0F1223 !important;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.first_account_txt p,
+.email_confirm__heading p {
+    color: #6C7288;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    padding: 8px 0 20px 0;
+}
+
+.email_confirm__heading p {
+    padding: 8px 20px 20px 20px !important;
+}
+
+.select_account_img {
+    background: #fff;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 15px;
+}
+
+.first_account_txt {
+    padding-top: 20px;
+}
+
+.first_account_1 {
+    background: transparent;
+}
+
+.first_account_1 .select_account_img {
+    background: #F6F7F9 !important;
+}
+
+.created_account_main .card-body,
+.email_conorm_main .card-body {
+    padding: 40px;
+}
+
+.created_account_form .form-control::placeholder,
+.create_pasword_form .form-control::placeholder {
+    color: #B7B9D0 !important;
+}
+
+.email_conform_img {
+    text-align: center;
+    margin-top: -80px;
+}
+
+.create_password_main .card-body {
+    padding: 30px;
+}
+
+.create_password_img {
+    text-align: center;
+    margin-top: -80px;
+    padding-bottom: 30px;
+}

@@ -1,0 +1,346 @@
+/****Header Section Start****/
+.header-card {
+    padding: 10px 0 20px;
+}
+
+.head-links ul {
+    margin-bottom: 0;
+}
+
+.head-links ul li {
+    display: inline-block;
+    margin-right: 35px;
+    position: relative;
+}
+
+.head-links ul li::after {
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    background: #E9EBF4;
+    width: 1px;
+    height: 100%;
+    content: '';
+    transform: translateY(-50%);
+}
+
+.head-links ul li:last-child {
+    margin-right: 0;
+}
+
+.head-links ul li:last-child::after {
+    display: none;
+}
+
+.head-links ul li a {
+    color: #000;
+    font-size: 16px;
+}
+
+.head-links ul li a:hover {
+    color: #5271FF;
+}
+
+.head-links ul li a:hover svg path {
+    stroke: #5271FF;
+}
+
+.head-links ul li a svg {
+    margin-right: 8px;
+}
+
+.login-link {
+    display: inline-block;
+    color: #5271FF;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
+
+.login-link svg {
+    margin-right: 8px;
+}
+
+/****Header Section End****/
+
+
+/***** profile Dropdown  *****/
+
+.profile-dropdown button {
+    background-color: transparent !important;
+    border: 0;
+    color: #5271FF !important;
+    font-family: Urbanist;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.profile-dropdown .dropdown {
+    display: flex;
+    height: 40px;
+    padding: 9px 0;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: #fff;
+    border-radius: 10px;
+
+}
+
+.profile-dropdown .dropdown .btn.show:focus-visible,
+.profile-dropdown .dropdown .btn:focus-visible {
+    box-shadow: none;
+}
+
+.profile-dropdown .dropdown .cross-icon {
+    display: none;
+}
+
+.profile-dropdown .show.dropdown .bar-icon {
+    display: none;
+}
+
+.profile-dropdown .show.dropdown .cross-icon {
+    display: inline-block;
+}
+
+.profile-dropdown .dropdown-toggle::after {
+    display: none;
+}
+
+.profile-dropdown .dropdown-menu.show {
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 0px 0px 0px rgba(40, 43, 62, 0.03),
+        1px 12px 27px 0px rgba(40, 43, 62, 0.03),
+        2px 49px 49px 0px rgba(40, 43, 62, 0.03),
+        6px 111px 67px 0px rgba(40, 43, 62, 0.02),
+        10px 198px 79px 0px rgba(40, 43, 62, 0.00),
+        15px 309px 87px 0px rgba(40, 43, 62, 0.00);
+    border: 0;
+    margin-top: 20px;
+    width: 287px !important;
+    padding: 15px;
+}
+
+.profile-dropdown .eventer_name {
+    color: #0F1223;
+    font-family: Urbanist;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    padding: 0 15px 5px;
+}
+
+.profile-dropdown .dropdown-item {
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    column-gap: 10px;
+    padding: 15px;
+    color: #0F1223;
+    font-family: Urbanist;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: relative;
+}
+
+.profile-dropdown .dropdown-item.active,
+.profile-dropdown .dropdown-item:hover {
+    border-radius: 10px;
+    background: #EEF3FE;
+    color: #5271FF;
+}
+
+.profile-dropdown .dropdown-item.active .icon svg path,
+.profile-dropdown .dropdown-item:hover .icon svg path {
+    stroke: #5271FF;
+}
+
+.profile-dropdown .dropdown-item:last-child {
+    border-top: 1px solid #DADBE7;
+}
+
+.profile-dropdown {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.order_count {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    padding: 4px 10px 5px 11px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 29px;
+    background: #EEF3FE;
+    color: #5271FF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+/* Notification Btn */
+
+.notification-btn {
+    display: inline-flex;
+    padding: 8px 10px 8px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border-radius: 10px;
+    background: #FFF;
+    color: #5271FF;
+    font-family: Urbanist;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+
+/****Footer Section Start****/
+.footer-card {
+    background: #fff;
+}
+
+.footer-logo {
+    margin-bottom: 20px;
+}
+.footer-logo img{
+    max-height: 38px;
+}
+
+.header-logo-new img{
+    max-height: 38px;
+}
+
+.footer-rt h4 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.footer-lft {
+    padding-right: 30px;
+}
+
+.footer-dis p {
+    color: #6D707A;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 24px;
+}
+
+.footer-rt .head-links ul li {
+    margin-right: 35px;
+}
+
+.footer-rt .head-links ul li:last-child {
+    margin-right: 0;
+}
+
+.footer-rt .head-links ul li::after {
+    right: -15px;
+
+}
+
+.pay-list li {
+    display: inline-block;
+    margin-right: 14px;
+    position: relative;
+}
+
+.pay-list li::after {
+    position: absolute;
+    right: -7px;
+    top: 50%;
+    background: #E9EBF4;
+    width: 1px;
+    height: 80%;
+    content: '';
+    transform: translateY(-50%);
+}
+
+.pay-list li:last-child::after {
+    display: none;
+}
+
+.pay-list {
+    margin-bottom: 0;
+}
+
+.ftr-contact p {
+    margin-bottom: 0;
+}
+
+.ftr-contact p svg {
+    margin-right: 8px;
+}
+
+.ftr-bottom-card {
+    background: #F6F7F9;
+    padding: 8px 0;
+}
+
+.ftr-bottom-card p {
+    margin-bottom: 0;
+}
+
+.ftr-bottom-card p a {
+    color: #5271FF;
+    text-decoration: underline !important;
+}
+
+
+/****Footer Section End****/
+
+@media (max-width: 991px) {
+    .head-links ul li {
+        display: block;
+        position: relative;
+        margin-bottom: 15px;
+        border-bottom: 1px solid #E9EBF4;
+        padding-bottom: 15px;
+    }
+
+    .head-links ul li:last-child {
+        border-bottom: 0;
+        margin-bottom: 0;
+        padding-bottom: 0
+    }
+
+    .footer-rt .head-links ul li::after {
+        display: none;
+    }
+
+    .ftr-bottom-rt {
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+
+    .ftr-bottom-card {
+        padding: 20px 0;
+    }
+}

@@ -1,0 +1,133 @@
+/**
+ * @copyright : Ozvid Technologies Pvt. Ltd. < www.ozvid.com >
+  @author     : Shiv Charan Panjeta < shiv@ozvid.com >
+  
+  All Rights Reserved.
+  Proprietary and confidential :  All information contained herein is, and remains
+  the property of Ozvid Technologies Pvt. Ltd. and its partners.
+  Unauthorized copying of this file, via any medium is strictly prohibited.
+ * 
+ */
+.Stepform_area {
+    padding: 50px 0 80px;
+}
+
+.Stepform_area .progress-bar {
+    background-color: #5271FF;
+    border-radius: 30px;
+}
+
+.step-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.step-head h4 {
+    color: #0F1223;
+    font-family: Urbanist;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+}
+
+.step-head h5 {
+    color: #0F1223;
+    text-align: right;
+    font-family: Urbanist;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px;
+}
+
+.step_inner .step-form h2 {
+    color: #0F1223;
+    font-family: Urbanist;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+.step_inner .step-form .pricing_left::before {
+    height: 435px;
+    top: 0;
+}
+
+.step_inner .step-form .card-logo {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+}
+
+.step_inner .step-form .card-logo img {
+    width: 45px;
+    border-radius: 5px;
+}
+
+.step_inner .step-form .card-nmbr.form-control {
+    padding-right: 150px !important;
+}
+
+.check-btn {
+    margin: 4px;
+    background-color: #F6F7F9;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    overflow: hidden;
+    float: left;
+}
+
+.check-btn label {
+    float: left;
+    line-height: 60px;
+    width: 160px;
+    height: 65px;
+    cursor: pointer;
+    border: 1px solid #F6F7F9;
+}
+
+.check-btn label span {
+    text-align: center;
+    padding: 0 0;
+    display: block;
+}
+
+.check-btn label input {
+    position: absolute;
+    display: none;
+    color: #fff !important;
+}
+
+.check-btn label input+span {
+    color: #000;
+}
+
+
+.check-btn input:checked+span {
+    color: #5271FF;
+    text-shadow: none;
+}
+
+.check-btn input:checked+span {
+    background-color: #F6F7F9;
+    border: 1px solid #5271FF;
+    border-radius: 10px;
+}
+
+@media (max-width:991px) {
+    .Stepform_area {
+        padding: 10px 0 20px;
+    }
+    .step-head h4 {
+        font-size: 28px;
+        line-height: 30px;
+    }
+}

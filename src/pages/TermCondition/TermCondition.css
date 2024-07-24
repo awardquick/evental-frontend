@@ -1,0 +1,49 @@
+.term_heading span {
+    color: #0F1223;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.ptb-30 {
+    padding: 30px 0;
+}
+
+.pt-30 {
+    padding-top: 30px;
+}
+
+.term_main p {
+    color: #6D707A;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.term_main .mail_1 {
+    color: #5271FF !important;
+}
+
+.term_main .mail_2 {
+    color: #6D707A !important;
+}
+
+.term_sub_heading {
+    color: #0F1223 !important;
+}
+
+.table_content .card-body {
+    padding: 40px;
+}
+
+.table_content_txt p {
+    color: #6D707A;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}

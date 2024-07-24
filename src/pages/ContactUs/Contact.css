@@ -1,0 +1,91 @@
+.Contact_main {
+    padding: 80px 0;
+}
+.Contact_main .card{
+    border-radius: 20px;
+}
+
+.Contact_main .card-body {
+    padding: 40px;
+}
+
+.Contact_top_txt .heading_h2 {
+    font-size: 76px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 77px;
+    padding-right: 50px;
+}
+
+.Contact_main .card-body h2 {
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+
+.Contact_top_txt p,
+.Contact_bottom_txt p {
+    color: #6D707A;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.Contact_top_txt p {
+    padding: 40px 0;
+}
+
+.Contact_bottom_txt {
+    padding-top: 117px;
+}
+
+.Contact_top_txt span,
+.Contact_bottom_txt a, .form_span span a{
+    color: #5271FF !important;
+}
+
+.Contact_bottom_txt h3 {
+    color: #0F1223;
+    font-family: Urbanist;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.Contact_top_txt {
+    border-bottom: 1px solid #DADBE7;
+}
+
+.Contact_main .form-control::placeholder {
+    color: #B7B9D0 !important;
+}
+
+.Contact_main textarea.form-control {
+    min-height: 130px;
+}
+
+.form_textarea {
+    margin: 20px 0;
+}
+
+.form_span {
+    color: #6D707A;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px
+}
+.Contact_main .rember_check .form-check-label{
+    color: #101F2D;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.form_span {
+    padding: 6px 33px 20px;
+}

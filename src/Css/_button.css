@@ -1,0 +1,26 @@
+.btn,
+.btn-theme-fill,
+.btn-theme-outline {
+    border-radius: 10px;
+    padding: 12px 38px;
+    display: inline-block;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    font-family: Urbanist;
+    text-align: center;
+}
+
+.btn-theme-fill,
+.btn-theme-outline:hover {
+    background: #5271FF;
+    color: #fff;
+    border: 2px solid #5271FF;
+}
+
+.btn-theme-outline,
+.btn-theme-fill:hover {
+    color: #5271FF;
+    border: 2px solid #5271FF;
+    background: #FFF;
+}

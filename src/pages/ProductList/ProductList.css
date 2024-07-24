@@ -1,0 +1,76 @@
+/**
+ * @copyright : Ozvid Technologies Pvt. Ltd. < www.ozvid.com >
+  @author     : Shiv Charan Panjeta 
+  
+  All Rights Reserved.
+  Proprietary and confidential :  All information contained herein is, and remains
+  the property of Ozvid Technologies Pvt. Ltd. and its partners.
+  Unauthorized copying of this file, via any medium is strictly prohibited.
+ * 
+ */
+.ProductList_main {
+  padding: 50px 0;
+  min-height: calc(100vh - 370px);
+}
+
+.ProductList_heading {
+  padding-bottom: 30px;
+}
+
+.produt_img img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.product_list_main .card {
+  border-radius: 20px !important;
+}
+
+.product_inner_txt {
+  padding: 15px 0 0 0;
+}
+
+.product_list_main span {
+  font-family: Urbanist;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  color: #5271ff;
+}
+
+.product_list_main p {
+  margin-bottom: 0;
+  color: #6d707a;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.product_pagination {
+  padding-top: 30px;
+}
+
+.product_pagination .page-item .page-link {
+  border: 0;
+  color: #5271ff;
+  padding: 10px 20px;
+}
+
+.product_pagination .page-item .page-link:hover {
+  background: #fff;
+}
+
+.product_pagination .page-item.active .page-link {
+  background: #5271ff;
+  color: #fff;
+}
+
+.product_pagination .page-item.active .page-link:hover {
+  background: #5271ff;
+  color: #fff;
+}
+.product_pagination .page-item .page-link:focus {
+  background-color: #fff;
+  box-shadow: none;
+}

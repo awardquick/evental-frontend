@@ -1,0 +1,653 @@
+ul {
+	list-style: none;
+	padding-left: 0px !important;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+body {
+	background: #F6F7F9 !important;
+	font-family: 'Urbanist', sans-serif !important;
+}
+
+
+/***Btns***/
+.wht-btn {
+	background: #fff;
+	padding: 12px 38px;
+	display: inline-block;
+	border-radius: 10px;
+	font-family: Urbanist;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	color: #5271FF;
+}
+
+.blue-btn {
+	background: #5271FF;
+	padding: 12px 38px;
+	display: inline-block;
+	border-radius: 10px;
+	font-family: Urbanist;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	color: #fff;
+}
+
+/****Banner Section Start****/
+.banner-inr {
+	background-image: url(/images/banner-img.png);
+	border-radius: 30px;
+	overflow: hidden;
+	min-height: 604px;
+	background-position: center right;
+	background-size: cover;
+	padding: 60px;
+}
+
+.banner-dis h4 {
+	font-size: 70px;
+	font-style: normal;
+	font-weight: 700;
+	color: #fff;
+	margin-bottom: 0;
+}
+
+.banner-dis h1 {
+	font-size: 48px;
+	font-style: italic;
+	font-weight: 700;
+	color: #fff;
+	margin-bottom: 5px;
+	position: relative;
+	z-index: 99;
+}
+
+.banner-dis h1::after {
+	position: absolute;
+	right: 210px;
+	background-image: url(/images/vector.svg);
+	bottom: -30px;
+	content: '';
+	width: 339px;
+	height: 49px;
+	z-index: -1;
+}
+
+.banner-dis p {
+	font-family: Inter;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	color: #fff;
+	margin-bottom: 0;
+}
+
+.banner-dis {
+	padding-top: 60px;
+}
+
+
+/****Banner Section End****/
+
+
+/****Banner Filter Start****/
+.banner-fltr-inner {
+	padding: 24px;
+	border-radius: 15px;
+	background: #fff;
+	margin-top: -195px;
+	position: relative;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.banner-filter-bottom h4 {
+	color: #000;
+	font-family: Urbanist;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+}
+
+.filter-loc-card {
+	padding: 15px;
+	border-radius: 10px;
+	border: 1px solid #DADBE7;
+}
+
+.filter-loc-card input.form-control,
+.filter-loc-card input.form-control::placeholder {
+	border: 0 !important;
+	box-shadow: none;
+	padding: 0 !important;
+	width: 200px;
+	max-width: 200px;
+	font-family: Urbanist;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 600;
+}
+
+.filter-loc-card span {
+	color: #6D707A;
+	font-family: Inter;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	display: inline-block;
+}
+
+.filter-loc-card h4 {
+	font-family: Urbanist;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 600;
+	display: flex;
+}
+
+.filter-loc-card h4 img {
+	margin-left: 5px;
+}
+
+.filter-loc-card p {
+	margin-bottom: 0;
+	color: #6D707A;
+	font-family: Inter;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.filter-date-card {
+	padding: 15px;
+	border-radius: 10px;
+	border: 1px solid #DADBE7;
+	position: relative;
+}
+
+.filter-date-card::before {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 60%;
+	width: 1px;
+	content: '';
+	background: #DADBE7;
+}
+
+.filter-lft-date span {
+	color: #6D707A;
+	font-family: Inter;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	display: inline-block;
+}
+
+.filter-lft-date h4 {
+	font-family: Urbanist;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 0;
+	margin-top: 2px;
+}
+
+.filter-lft-date h4 img {
+	margin-left: 5px;
+}
+
+.cal-control {
+	width: 100px;
+}
+
+.cal-control a {
+	color: #6D707A;
+	font-family: Inter;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	display: inline-block;
+}
+
+/****Banner Filter End****/
+
+
+
+
+.title-sec h2 {
+	font-family: Urbanist;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 700;
+}
+
+.loc-link {
+	color: #5271FF;
+	text-decoration: none;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+}
+
+
+
+/****Bhooth Section Start****/
+.bhooth-card {
+	display: block;
+	width: 100%;
+	border-radius: 20px;
+	background: #fff;
+	padding: 14px;
+	text-decoration: none !important;
+	transition: all .5s ease-in-out;
+	margin-bottom: 30px;
+}
+
+.bhooth-card:hover {
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.bhooth-img img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.bhooth-img {
+	border-radius: 12px;
+	overflow: hidden;
+	margin-bottom: 12px;
+	height: 250px;
+}
+
+.bhooth-dis p {
+	margin-bottom: 0;
+	color: #6D707A;
+	font-family: Inter;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.bhooth-dis span {
+	font-family: Urbanist;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	color: #5271FF;
+}
+
+.bhooth-dis h3 {
+	font-family: Urbanist;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 600;
+	color: #0F1223;
+}
+
+/****Bhooth Section End****/
+
+
+
+/****Event Section Start****/
+
+.event-card h3 {
+	font-family: Urbanist;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 700;
+	margin-bottom: 12px;
+}
+
+.event-card p {
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	color: #6D707A;
+}
+
+.event-img {
+	text-align: right;
+}
+
+.event-card {
+	padding: 40px;
+	border-radius: 20px;
+	background: #fff;
+	overflow: hidden;
+}
+
+.event-card.blue {
+	background: #5271FF;
+}
+
+.event-card.blue h3,
+.event-card.blue p {
+	color: #fff;
+}
+
+.event-img {
+	text-align: right;
+	margin-bottom: -40px;
+}
+
+/****Event Section End****/
+
+.find-btn {
+	border-radius: 10px;
+	background: #5271FF;
+	color: #fff;
+	padding: 8px 10px;
+	display: flex;
+	text-align: center;
+	font-family: Urbanist;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	align-items: center;
+	justify-content: center;
+	min-height: 50px;
+}
+
+.find-btn svg {
+	margin-left: 6px;
+}
+
+.custom-radio {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 20px;
+	column-gap: 20px;
+}
+
+.custom-radio [type="radio"] {
+	position: absolute;
+	opacity: 0;
+	width: 0;
+	height: 0;
+
+}
+
+.custom-radio [type="radio"]:checked+.label-icon {
+	background: #5271FF;
+
+	color: #fff;
+	border: none;
+}
+
+
+.radio-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid var(--primary-color);
+	position: relative;
+	border-radius: 10px;
+}
+
+.label-icon {
+	background-color: #fff;
+	margin-bottom: 0;
+	padding: 8px 25px;
+	text-align: center;
+	color: #000;
+	border-radius: 10px;
+	font-family: Urbanist;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	border-radius: 40px;
+	border: 1px solid #DADBE7;
+}
+
+.form-control.error {
+	border: 1px solid #c90000 !important;
+}
+
+.eye-icon {
+	position: absolute;
+	top: 39px;
+	right: 15px;
+	cursor: pointer;
+}
+
+
+/*================================= CALENDAR CSS START HERE =================================*/
+
+.calendar .react-datepicker-popper {
+	z-index: 1001;
+}
+
+.filter-lft-date {
+	position: relative;
+}
+
+.calendar input.custom-calendar,
+input.custom-time-select {
+	width: 130px;
+	border: 0;
+	font-family: Urbanist;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 600;
+	position: relative;
+	z-index: 0;
+	background: transparent;
+	cursor: pointer;
+}
+
+.filter-date-card .icon {
+	position: absolute;
+	right: 0;
+}
+
+.calendar input:focus-visible,
+input.custom-time-select {
+	outline: none;
+}
+
+.calendar .react-datepicker {
+	padding: 30px 40px 40px;
+	border-radius: 30px;
+	background: #FFF;
+	box-shadow: 0px 33px 60px 0px rgba(23, 40, 26, 0.04);
+	border: 0;
+}
+
+.calendar .react-datepicker__month-container {
+	border-radius: 20px;
+	background: #F6F7F9;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.calendar .react-datepicker__header {
+	border-radius: 20px;
+	background: #F6F7F9;
+	border-bottom: 0;
+}
+
+.calendar .react-datepicker__day--in-selecting-range,
+.calendar .react-datepicker__day--selected,
+.calendar .react-datepicker__day--in-range,
+.calendar .react-datepicker__month-text--selected,
+.calendar .react-datepicker__month-text--in-selecting-range,
+.calendar .react-datepicker__month-text--in-range,
+.calendar .react-datepicker__quarter-text--selected,
+.calendar .react-datepicker__quarter-text--in-selecting-range,
+.calendar .react-datepicker__quarter-text--in-range,
+.calendar .react-datepicker__year-text--selected,
+.calendar .react-datepicker__year-text--in-selecting-range,
+.calendar .react-datepicker__year-text--in-range {
+	color: #fff !important;
+	border-radius: 10px;
+	background: #5271FF;
+
+}
+
+
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item--selected {
+	background-color: #5271ff;
+	color: white;
+	font-weight: bold;
+}
+
+.calendar .react-datepicker__day,
+.calendar .react-datepicker__time-name {
+	text-align: center;
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 26px;
+	width: 40px;
+	height: 40px;
+	padding: 7px;
+	color: #6C7288;
+}
+
+.calendar .react-datepicker__current-month,
+.calendar .react-datepicker-time__header,
+.calendar .react-datepicker-year-header {
+
+	color: #0F1223;
+	font-family: Urbanist;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 110%;
+	text-align: start;
+	margin-bottom: 24px;
+}
+
+.calendar .react-datepicker__current-month {
+	padding-left: 10px;
+}
+
+.calendar .react-datepicker__day-name {
+	color: #0F1223;
+	text-align: center;
+	font-family: Urbanist;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 18px;
+	width: 41px;
+}
+
+.calendar .react-datepicker__navigation--previous {
+	left: inherit;
+	right: 45px;
+}
+
+.calendar .react-datepicker__navigation {
+	background: #fff;
+	top: 25px;
+	padding: 0;
+	height: 30px;
+	width: 30px;
+	border-radius: 4px;
+	margin-right: 30px;
+}
+
+.calendar span.react-datepicker__navigation-icon {
+	color: #0F1223;
+	line-height: normal;
+}
+
+.calendar .react-datepicker__navigation-icon::before {
+	border-color: #0F1223;
+}
+
+.calendar .react-datepicker__navigation-icon--next::before {
+	left: -5px;
+}
+
+.calendar .react-datepicker__navigation-icon--previous::before {
+	right: -5px;
+}
+
+.calendar .react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle,
+.calendar .react-datepicker-popper[data-placement^=top] .react-datepicker__triangle,
+.clock .react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle,
+.clock .react-datepicker-popper[data-placement^=top] .react-datepicker__triangle {
+	display: none;
+}
+
+.calendar .react-datepicker-popper[data-placement^=bottom] {
+	padding-top: 0;
+}
+
+.calendar .react-datepicker-popper
+{
+	z-index: 1001;
+}
+
+.calendar-outer .title {
+	color: #0F1223;
+	font-family: Urbanist;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.calendar-outer .sub-title {
+	color: #6C7288;
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.clock .react-datepicker {
+	border: 0;
+	box-shadow: 0px 33px 60px 0px rgba(23, 40, 26, 0.04);
+}
+
+.clock .react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list {
+	background: #F6F7F9;
+}
+
+.clock .react-datepicker__header {
+	background: #fff;
+	border: 0;
+	text-align: left;
+	padding: 20px;
+}
+
+
+.clock .react-datepicker-time__header {
+	color: #0F1223;
+	font-family: Urbanist;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.clock .react-datepicker__time-container {
+	width: 285px;
+}
+
+.clock .react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box {
+	width: 285px;
+}
+
+/*================================= CALENDAR CSS END HERE =================================*/
+
+.term_main {
+    min-height: calc(100vh - 370px);
+}

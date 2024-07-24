@@ -1,0 +1,99 @@
+.ptb-60 {
+    padding: 60px 0 100px 0;
+}
+
+.how_work_heading h2 {
+    color: #0F1223;
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 76px;
+    font-weight: 700;
+    line-height: 83px;
+    padding-bottom: 40px;
+}
+
+.card_box_txt p {
+    color: #6D707A;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.how_work_heading span,
+.rent_heading span {
+    color: #5271FF;
+}
+
+.box_card {
+    min-height: 377px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.border-radius {
+    border-radius: 20px !important;
+}
+
+.how_wrok_count span {
+    color: #5271FF;
+    font-family: Urbanist;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.how_wrok_count {
+    background: #fff;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto 20px auto;
+}
+
+.ptb-100 {
+    padding: 100px 0;
+}
+
+.plr-60 {
+    padding: 0 60px;
+}
+
+.work_why_text p {
+    color: #6D707A;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 20px 0 30px 0;
+    margin-bottom: 0;
+}
+
+.btn-theme-fill:hover .how_work-arrow path {
+    stroke: #5271FF;
+}
+
+.how_work-arrow {
+    margin: 0 0 2px 5px;
+}
+.custom-radio .label-icon {
+    cursor: pointer;
+}
+.how_wrok_count{
+    position: relative;
+}
+
+.count_dash:before {
+    content: "";
+    position: absolute;
+    border: 1px dashed #D3D9F5;
+    width: 100%;
+    top: 26px;
+    left: 50%;
+}
