@@ -60,6 +60,7 @@ const Register = () => {
       payload.append("email", values.email);
       payload.append("mobile_no", values.mobileNumber);
       payload.append("profile_pic", values.photoID);
+      payload.append("terms_accepted", values.terms);
       try {
         const response = await register(payload);
         if (response.status === 200) {

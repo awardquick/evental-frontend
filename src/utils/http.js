@@ -1,122 +1,111 @@
-/**
- * @copyright : Ozvid Technologies Pvt. Ltd. < www.ozvid.com >
-  @author     : Shiv Charan Panjeta < shiv@ozvid.com >
-  
-  All Rights Reserved.
-  Proprietary and confidential :  All information contained herein is, and remains
-  the property of Ozvid Technologies Pvt. Ltd. and its partners.
-  Unauthorized copying of this file, via any medium is strictly prohibited.
- * 
- */
-  import axios from "axios";
-  import { toastAlert } from "./SweetAlert";
-  
-  export const http = axios.create({
-    baseURL: import.meta.env.VITE_API_URL,
-  });
-  
-  export const http_multipart = axios.create({
-    baseURL: import.meta.env.VITE_API_URL,
-    headers: {
-      "Content-Type": "multipart/form-data",
-    },
-  });
-  
-  /* request interceptor */
-  http.interceptors.request.use(
-    function (config) {
-      const token = JSON.parse(localStorage.getItem("userDetails"))?.token;
-  
-      if (token) {
-        config.headers["authorization"] = `Token ${token}`;
-      }
-      return config;
-    },
-    function (error) {
-      return Promise.reject(error);
-    }
-  );
-  
-  /* request multipart interceptor */
-  http_multipart.interceptors.request.use(
-    function (config) {
-      const token = JSON.parse(localStorage.getItem("userDetails"))?.token;
-      if (token) {
-        config.headers["authorization"] = `Token ${token}`;
-      }
-      return config;
-    },
-    function (error) {
-      return Promise.reject(error);
-    }
-  );
-  
-  /* response interceptor */
-  http.interceptors.response.use(
-    function (response) {
-      return response;
-    },
-    function (error) {
-      if (error?.name === "Network Error") {
-        toastAlert("error", error.response.data.message);
-        return error.response;
-      } else {
-        if (error.response?.status === 403) {
-          toastAlert("error", error.response.data.message);
-          return error.response;
-        }
-        if (error.response?.status === 400) {
-          toastAlert("error", error.response.data.message);
-          return error.response;
-        }
-        if (error.response?.status === 404) {
-          toastAlert("error", error.response.data.message);
-          return error.response;
-        }
-        if (error.response?.status === 401) {
-          toastAlert("error", error.response.data.detail);
-          localStorage.clear();
-          window.location.href = "/";
-          return error.response;
-        }
-      }
-      return Promise.reject(error);
-    }
-  );
-  
-  /* response multipart interceptor */
-  http_multipart.interceptors.response.use(
-    function (response) {
-      return response;
-    },
-    function (error) {
-      if (error?.name === "Network Error") {
-        toastAlert("error", error.response.data.message);
-        return error.response;
-      } else {
-        if (error.response?.status === 403) {
-          toastAlert("error", error.response.data.message);
-          return error.response;
-        }
-        if (error.response?.status === 400) {
-          toastAlert("error", error.response.data.message);
-          return error.response;
-        }
-        if (error.response?.status === 404) {
-          toastAlert("error", error.response.data.message);
-          return error.response;
-        }
-        if (error.response?.status === 401) {
-          toastAlert("error", error.response.data.detail);
-          localStorage.clear();
-          window.location.href = "/";
-          return error.response;
-        }
-      }
-      return Promise.reject(error);
-    }
-  );
+import axios from "axios";
+import { toastAlert } from "./SweetAlert";
 
+export const http = axios.create({
+  baseURL: import.meta.env.VITE_API_URL,
+});
+
+export const http_multipart = axios.create({
+  baseURL: import.meta.env.VITE_API_URL,
+  headers: {
+    "Content-Type": "multipart/form-data",
+  },
+});
+
+/* request interceptor */
+http.interceptors.request.use(
+  function (config) {
+    const token = JSON.parse(localStorage.getItem("userDetails"))?.token;
+
+    if (token) {
+      config.headers["authorization"] = `Token ${token}`;
+    }
+    return config;
+  },
+  function (error) {
+    return Promise.reject(error);
+  }
+);
+
+/* request multipart interceptor */
+http_multipart.interceptors.request.use(
+  function (config) {
+    const token = JSON.parse(localStorage.getItem("userDetails"))?.token;
+    if (token) {
+      config.headers["authorization"] = `Token ${token}`;
+    }
+    return config;
+  },
+  function (error) {
+    return Promise.reject(error);
+  }
+);
+
+/* response interceptor */
+http.interceptors.response.use(
+  function (response) {
+    return response;
+  },
+  function (error) {
+    if (error?.name === "Network Error") {
+      toastAlert("error", error.response.data.message);
+      return error.response;
+    } else {
+      if (error.response?.status === 403) {
+        toastAlert("error", error.response.data.message);
+        return error.response;
+      }
+      if (error.response?.status === 400) {
+        toastAlert("error", error.response.data.message);
+        return error.response;
+      }
+      if (error.response?.status === 404) {
+        toastAlert("error", error.response.data.message);
+        return error.response;
+      }
+      if (error.response?.status === 401) {
+        toastAlert("error", error.response.data.detail);
+        localStorage.clear();
+        window.location.href = "/";
+        return error.response;
+      }
+    }
+    return Promise.reject(error);
+  }
+);
+
+/* response multipart interceptor */
+http_multipart.interceptors.response.use(
+  function (response) {
+    return response;
+  },
+  function (error) {
+    if (error?.name === "Network Error") {
+      toastAlert("error", error.response.data.message);
+      return error.response;
+    } else {
+      if (error.response?.status === 403) {
+        toastAlert("error", error.response.data.message);
+        return error.response;
+      }
+      if (error.response?.status === 400) {
+        toastAlert("error", error.response.data.message);
+        return error.response;
+      }
+      if (error.response?.status === 404) {
+        toastAlert("error", error.response.data.message);
+        return error.response;
+      }
+      if (error.response?.status === 401) {
+        toastAlert("error", error.response.data.detail);
+        localStorage.clear();
+        window.location.href = "/";
+        return error.response;
+      }
+    }
+    return Promise.reject(error);
+  }
+);
 
 //   import axios from "axios";
 // import { toastAlert } from "./SweetAlert";
@@ -165,7 +154,7 @@
 //       localStorage.clear();
 //       window.location.href = "/";
 //     }
-    
+
 //     return Promise.reject(error);
 //   }
 
@@ -181,5 +170,3 @@
 // // Applying interceptors to http and httpFormData instances
 // applyInterceptors(http);
 // applyInterceptors(httpFormData);
-
-  

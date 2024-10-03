@@ -1,6 +1,6 @@
 import { useFormik } from "formik";
 import moment from "moment";
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Col, Container, Form, Row } from "react-bootstrap";
 import * as yup from "yup";
 import { LocationIcon, SendBtnBlackIcon } from "../../SvgIcons/allIcons";
