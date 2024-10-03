@@ -1,4 +1,3 @@
-import React from "react";
 import Header from "../Eventer/AuthHeader";
 import Footer from "../Common/Footer";
 import {Col, Container, Row } from "react-bootstrap";

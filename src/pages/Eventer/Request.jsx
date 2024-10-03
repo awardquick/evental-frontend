@@ -234,7 +234,7 @@ function Request() {
                                         </div>
                                       </div>
                                       <div className="request_message request_locatin_title">
-                                        <h3 className="heading_h3">Suppliers</h3>
+                                        <h3 className="heading_h3">Renters</h3>
                                         <div className="d-flex align-items-center justify-content-between">
                                           <div className="request_message_img_txt d-flex gap-2">
                                             <div className="request_message_img">
@@ -397,7 +397,7 @@ function Request() {
                                         </div>
                                       </div>
                                       <div className="request_message request_locatin_title">
-                                        <h3 className="heading_h3">Suppliers</h3>
+                                        <h3 className="heading_h3">Renters</h3>
                                         <div className="d-flex align-items-center justify-content-between">
                                           <div className="request_message_img_txt d-flex gap-2">
                                             <div className="request_message_img">
@@ -534,7 +534,7 @@ function Request() {
                                         </div>
                                       </div>
                                       <div className="request_message request_locatin_title">
-                                        <h3 className="heading_h3">Suppliers</h3>
+                                        <h3 className="heading_h3">Renters</h3>
                                         <div className="d-flex align-items-center justify-content-between">
                                           <div className="request_message_img_txt d-flex gap-2">
                                             <div className="request_message_img">
@@ -678,7 +678,7 @@ function Request() {
                               </div>
 
                               <div className="request_message request_locatin_title">
-                                <h3 className="heading_h3">Suppliers</h3>
+                                <h3 className="heading_h3">Renters</h3>
                                 <div className="d-flex align-items-center justify-content-between">
                                   <div className="request_message_img_txt d-flex gap-2">
                                     <div className="request_message_img">
@@ -785,7 +785,7 @@ function Request() {
                               </div>
 
                               <div className="request_message request_locatin_title">
-                                <h3 className="heading_h3">Suppliers</h3>
+                                <h3 className="heading_h3">Renters</h3>
                                 <div className="d-flex align-items-center justify-content-between">
                                   <div className="request_message_img_txt d-flex gap-2">
                                     <div className="request_message_img">
@@ -892,7 +892,7 @@ function Request() {
                               </div>
 
                               <div className="request_message request_locatin_title">
-                                <h3 className="heading_h3">Suppliers</h3>
+                                <h3 className="heading_h3">Renters</h3>
                                 <div className="d-flex align-items-center justify-content-between">
                                   <div className="request_message_img_txt d-flex gap-2">
                                     <div className="request_message_img">
@@ -987,7 +987,7 @@ function Request() {
                               </div>
 
                               <div className="request_message request_locatin_title">
-                                <h3 className="heading_h3">Suppliers</h3>
+                                <h3 className="heading_h3">Renters</h3>
                                 <div className="d-flex align-items-center justify-content-between">
                                   <div className="request_message_img_txt d-flex gap-2">
                                     <div className="request_message_img">
@@ -1080,7 +1080,7 @@ function Request() {
                               </div>
 
                               <div className="request_message request_locatin_title">
-                                <h3 className="heading_h3">Suppliers</h3>
+                                <h3 className="heading_h3">Renters</h3>
                                 <div className="d-flex align-items-center justify-content-between">
                                   <div className="request_message_img_txt d-flex gap-2">
                                     <div className="request_message_img">
@@ -1174,7 +1174,7 @@ function Request() {
                               </div>
 
                               <div className="request_message request_locatin_title">
-                                <h3 className="heading_h3">Suppliers</h3>
+                                <h3 className="heading_h3">Renters</h3>
                                 <div className="d-flex align-items-center justify-content-between">
                                   <div className="request_message_img_txt d-flex gap-2">
                                     <div className="request_message_img">

@@ -328,7 +328,7 @@ const Step1 = ({
                                   accept=".png, .jpg, .jpeg"
                                   onChange={(e) => {
                                     setFieldValue(
-                                      "your_selfie",
+                                      "Please",
                                       e.target.files[0]
                                     );
                                   }}

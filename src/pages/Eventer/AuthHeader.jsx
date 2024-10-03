@@ -487,7 +487,7 @@ const AuthHeader = () => {
                         </span>
                         {role == constant.EVENTEE
                           ? "Become eventer"
-                          : "Become Suppliers"}
+                          : "Become renter"}
                       </span>
                       <Link
                         onClick={() => {
@@ -651,7 +651,7 @@ const AuthHeader = () => {
                       </span>
                       {role == constant.EVENTEE
                         ? "Become eventer"
-                        : "Become Suppliers"}
+                        : "Become renter"}
                     </span>
                   </a>
                 </li>

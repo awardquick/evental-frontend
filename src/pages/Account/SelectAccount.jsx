@@ -29,7 +29,7 @@ function SelectAccount() {
                                                 </div>
                                                 <div className='first_account_txt'>
                                                     <h5 className='heading_h5 mb-0'>Eventer</h5>
-                                                    <p className='mb-0'>Top Duties and Qualifications. A Buyer, or Purchasing Agent, is responsible for purchasing materials, supplies or equipment for a business. Their duties include negotiating deals with suppliers, researching .</p>
+                                                    <p className='mb-0'>Top Duties and Qualifications. A Buyer, or Purchasing Agent, is responsible for purchasing materials, supplies or equipment for a business. Their duties include negotiating deals with suppliers, researching .</p>
                                                     <Link to="/eventer-register" className='btn-theme-fill'>Register</Link>
                                                 </div>
                                             </div>
@@ -50,7 +50,7 @@ function SelectAccount() {
                                                     </svg>
                                                 </div>
                                                 <div className='first_account_txt'>
-                                                    <h5 className='heading_h5 mb-0'>Suppliers</h5>
+                                                    <h5 className='heading_h5 mb-0'>Renters</h5>
                                                     <p className='mb-0'>Any individual or entity that offers any product, service, or financial asset for purchase. Short selling involves borrowing securities not owned to sell, with the aim of buying them back at a lower price.</p>
                                                     <Link to="/eventee-register" className='btn-theme-fill'>Register</Link>
                                                 </div>
